@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    width: 300px;
+
+
+    display: flex;
+    align-items: flex-end;
+    
+}
+.box::before {
+    content: '';
+    width: 150px;
+    height: 150px;
+    background: gold;
+
+}
+.box::after {
+    content: '';
+    width: 150px;
+    height: 150px;
+    background: #000;
+
+}
